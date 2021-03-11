@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Item</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="fonts/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">  
+    </head>
+    <body>
+
+        <div class="container">
+
+            <header class="header">
+            
+                <div class="logo">
+                    <div class="logo__item">Template</div>
+                    <div class="login">
+                        <a class="e-mail" href="">Email sign up</a>
+                        <a href="shopping bag.html" class="login__shopping-bag">
+                            <span class="bag"><i class="fa fa-shopping-bag"></i> Bag <span class="price"></span><span class="quantity">(0)</span></span>
+                        </a>  
+                    </div>
+                </div> 
+               
+                <div class="menu-wrapper">
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a class="menu__link" href="">Women</a></li>
+                            <li class="menu__item"><a class="menu__link" href="">Men</a></li>
+                            <li class="menu__item"><a class="menu__link" href="">Handbags</a></li>
+                            <li class="menu__item"><a class="menu__link" href="">Accessories</a></li>
+                            <li class="menu__item"><a class="menu__link" href="">Sale</a></li>
+                            <li class="menu__item"><a class="menu__link" href="">New Arrivals</a></li>
+                            <li class="menu__item"><a class="menu__link" href="">Clearance</a></li>
+                            <li class="menu__item"><a class="menu__link" href="">Store Locator</a></li>
+                        </ul>
+                    </nav>
+
+                    <form class="search-form search-form-768px" style="position: relative;">
+                        <input type="text" class="searchTerm" placeholder="Style Name">
+                        <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>       
+            </header>
+            
+            <header class="header-mobile" style="position: relative;">
+                <div class="left-column">
+                    <div class="logo">
+                        <div class="logo__item-mobile">TL</div>
+                    </div>
+                    <div class="bag">
+                        <a href="shopping bag.html" class="login__shopping-bag">
+                            <span class="shopbag"><i class="fa fa-shopping-bag"></i> Bag <span class="price"></span><span class="quantity">(0)</span></span>
+                        </a>
+                    </div> 
+                </div>
+                <div class="right-column">
+                    <div class="menu">
+                        <button class="menubtn"><i class="icon-menu"></i><i class="icon-close hide"></i></button>
+                        <div id="myMenu" class="menu-content">
+                          <a href="">Women</a>
+                          <a href="">Men</a>
+                          <a href="">Handbags</a>
+                          <a href="">Accessories</a>
+                          <a href="">Sale</a>
+                          <a href="">New Arrivals</a>
+                          <a href="">Clearance</a>
+                          <a href="">Store Locator</a>
+                          <form class="search-form-768px" style="position: relative;">
+                            <input type="text" class="searchTerm" placeholder="Style Name">
+                            <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+                          </form>
+                        </div>
+                    </div>
+                </div>      
+            </header>
+            <div class="catalog-reference">
+                <a href="catalog.html" class="catalog-reference__link">
+                    <span class="catalog-reference__title">&lt Back to catalog</span>
+                </a>
+            </div>
+        
+            <div class="item-details item-details__none">
+                <div class="item-details__item item-details__description-item">
+                    <img id="fullsize" src="img/full.jpg" alt="full" class="item-details__image">
+                    <div class="thumb-wrapper">
+                        <div class="img-thumb0">
+                        <div class="img-container" style="position: relative;">
+                            <div class="item-details__item-overlay"></div>
+                            <img src="img/thumb_0.jpg" alt="thumb_0" class="thumb0-image">
+                        </div>
+                    </div>
+                    <div class="img-thumb1">
+                        <div class="img-container" style="position: relative;">
+                            <div class="item-details__item-overlay"></div>
+                            <img src="img/thumb_1.jpg" alt="thumb_1" class="thumb1-image">   
+                        </div>
+                    </div>
+                    <div class="img-thumb2">
+                        <div class="img-container" style="position: relative;">    
+                            <div class="item-details__item-overlay"></div>
+                            <img src="img/thumb_2.jpg" alt="thumb_2" class="thumb2-image">   
+                        </div>
+                    </div> 
+                    </div>
+                    
+                </div>
+                <div class="item_details__item">
+                    <div class="item-details__name">Dark classic fit suit</div>
+                    <div class="item-details__desc">Featuring fine Italian wool, this elegant suit has pick-stitch edging,
+                                cascade buttons <br> at the cuffs and a subtle stripe pattern throughout.
+                    </div>
+                    <div class="item-details__price">£180.60</div>
+                    <div class="item-details__info">
+                        <ul class="item-details__list">
+                            <li class="item-details__list-item"><label class="item-details__label">Size</label></li>
+                            <li class="item-details__list-item"><a class="item-details__button-size">UK 52</a></li>
+                            <li class="item-details__list-item"><a class="item-details__button-size">UK 54</a></li>
+                            <li class="item-details__list-item"><a class="item-details__button-size">UK 56</a></li>
+                        </ul>
+                </div>
+                <div class="item-details__info">
+                        <ul class="item-details__list">
+                            <li class="item-details__list-item-fix"><label class="item-details__label">Color</label></li>
+                            <li class="item-details__list-item-fix"><a class="item-details__button-color">Black</a></li>
+                            <li class="item-details__list-item-fix"><a class="item-details__button-color">Blue</a></li>
+                        </ul> 
+                    </div>
+                    <a href="shopping bag.html" class="galery-offer__link">
+                        <button class="item-details__btn">Add to bag</button>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="item-details__768px">
+                <div class="item-details__col-left">
+                     <img src="img/full.jpg" class="item-details__768px-img" alt="full">
+                </div>
+                <div class="item-details__col-right">
+                    <div class="item_details__col1-right">
+                        <div class="img-container" style="position: relative;">
+                            <div class="item-details__item-overlay"></div>
+                            <img src="img/thumb_0.jpg" class="item-details__768px-img-thumb" alt="thumb_0">
+                        </div>
+                    </div>
+                    <div class="item_details__col2-right">
+                        <div class="img-container" style="position: relative;">
+                            <div class="item-details__item-overlay"></div>
+                            <img src="img/thumb_1.jpg" class="item-details__768px-img-thumb" alt="thumb_1">
+                        </div>
+                    </div>
+                    <div class="item_details__col3-right">
+                        <div class="img-container" style="position: relative;">
+                            <div class="item-details__item-overlay"></div>
+                            <img src="img/thumb_2.jpg" class="item-details__768px-img-thumb" alt="thumb_2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-details__description">
+               
+                <div class="item-details__description-item">
+                    <div class="item-details__name">Dark classic fit suit</div>
+                    <div class="item-details__price">£180.60</div>
+                    <div class="item-details__desc">Featuring fine Italian wool, this elegant suit has pick-stitch edging,
+                                    cascade buttons <br> at the cuffs and a subtle stripe pattern throughout.
+                </div>
+                <div class="item-details__info">
+                        <ul class="item-details__list">
+                            <li class="item-details__list-item"><label class="item-details__label">Size</label></li>
+                            <li class="item-details__list-item"><a class="item-details__button-size">UK 52</a></li>
+                            <li class="item-details__list-item"><a class="item-details__button-size">UK 54</a></li>
+                            <li class="item-details__list-item"><a class="item-details__button-size">UK 56</a></li>
+                        </ul>
+                </div>
+                <div class="item-details__info">
+                        <ul class="item-details__list">
+                            <li class="item-details__list-item-fix"><label class="item-details__label">Color</label></li>
+                            <li class="item-details__list-item-fix"><a class="item-details__button-color">Black</a></li>
+                            <li class="item-details__list-item-fix"><a class="item-details__button-color">Blue</a></li>
+                        </ul> 
+                </div>
+                        <a href="shopping bag.html" class="galery-offer__link"> 
+                            <button class="item-details__btn">Add to bag</button>
+                        </a>
+                    </div>
+                </div>
+            <div class="item-details__mobile">
+                <div class="item-details-mobile__item">
+                    <img id="fullsize" src="img/full.jpg" alt="full" class="item-details__image">
+                    <div class="thumb-wrapper">
+                        <div class="img-thumb0">
+                        <div class="img-container" style="position: relative;">
+                            <div class="item-details__item-overlay"></div>
+                            <img src="img/thumb_0.jpg" alt="thumb_0" class="thumb0-image">
+                        </div>
+                    </div>
+                    <div class="img-thumb1">
+                        <div class="img-container" style="position: relative;">
+                            <div class="item-details__item-overlay"></div>
+                            <img src="img/thumb_1.jpg" alt="thumb_1" class="thumb1-image">   
+                        </div>
+                    </div>
+                    <div class="img-thumb2">
+                        <div class="img-container" style="position: relative;">    
+                            <div class="item-details__item-overlay"></div>
+                            <img src="img/thumb_2.jpg" alt="thumb_2" class="thumb2-image">   
+                        </div>
+                    </div> 
+                    </div>
+                    
+                </div>
+                <div class="item-details-mobile__description">
+               
+                    <div class="item-details__description-item">
+                        <div class="item-details__name">Dark classic fit suit</div>
+                        <div class="item-details__price">£180.60</div>
+                        <div class="item-details__desc">Featuring fine Italian wool, this elegant suit has pick-stitch edging,
+                                        cascade buttons at the cuffs and a subtle stripe pattern throughout.
+                    </div>
+                    <div class="item-details__info">
+                            <ul class="item-details__list">
+                                <li class="item-details__list-item"><label class="item-details__label">Size</label></li>
+                                <li class="item-details__list-item"><a class="item-details__button-size">UK 52</a></li>
+                                <li class="item-details__list-item"><a class="item-details__button-size">UK 54</a></li>
+                                <li class="item-details__list-item"><a class="item-details__button-size">UK 56</a></li>
+                            </ul>
+                    </div>
+                    <div class="item-details__info">
+                            <ul class="item-details__list">
+                                <li class="item-details__list-item-fix"><label class="item-details__label">Color</label></li>
+                                <li class="item-details__list-item-fix"><a class="item-details__button-color">Black</a></li>
+                                <li class="item-details__list-item-fix"><a class="item-details__button-color">Blue</a></li>
+                            </ul> 
+                    </div>
+                            <a href="shopping bag.html" class="galery-offer__link">
+                                <button class="item-details__btn">Add to bag</button>
+                            </a>
+                        </div>
+                    </div>   
+            </div>    
+            <br>
+            <br>
+            <br>
+            <div class="bottom-banners">
+                <div class="banner__col-left" style="position: relative;">
+                                
+                    <img class="bottom-banners__img-left" src="img/Adidas Blue.jpg" alt="Adidas Blue"> 
+                                
+                    <div class="bottom-banners-item__left-title-position">
+                        <span class="bottom-banners__left-center-title-style">Adidas Blue</span>
+                        <span class="bottom-banners__left-subtitle-style">For men</span> 
+                    </div> 
+                </div>
+                <div class="banner__col-center" style="position: relative;">
+                                
+                    <img class="bottom-banners__img-center" src="img/Repair Patches.jpg" alt="Repair Patches"> 
+                                    
+                    <div class="bottom-banners-item__center-title-position">
+                        <span class="bottom-banners__left-center-title-style">Repair Patches</span>
+                        <span class="bottom-banners__center-price-style">£ 150.50</span> 
+                    </div> 
+                </div>
+                <div class="banner__col-right banner__col-right_none" style="position: relative;">
+                                
+                    <img class="bottom-banners__img-right" src="img/Sale.jpg" alt="Bag"> 
+                                    
+                        <div class="bottom-banners-item__right-title-position">
+                             <span class="bottom-banners__right-title-style">Sale</span>
+                             <span class="bottom-banners__right-subtitle-style">-70%</span> 
+                        </div> 
+                    </div>
+                </div>
+
+                <nav class="footer-nav__365px">
+                        <div class="footer-nav__links">
+                                <div class="footer-nav__col1">
+                                            <div class="footer-nav__title-left">Quick Links</div>
+                                                <ul class="footer-nav__list">
+                                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Store Locator</a></li>
+                                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Gift cards</a></li>
+                                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Size guide</a></li>
+                                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">About us</a></li>
+                                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Support</a></li>
+                                                </ul>
+                                </div>
+                                <div class="footer-nav__col2">
+                                            <div class="footer-nav__title-left">Customer Care</div>
+                                                <ul class="footer-nav__list">
+                                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Customer service</a></li>
+                                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Truck my order</a></li>
+                                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Return policy</a></li>
+                                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Shipping & delivery</a></li>
+                                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Contact us</a></li>
+                                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Careers</a></li>
+                                                </ul>
+                                        </div>
+                        </div>
+                        <div class="footer-nav__questions">
+                                        <div class="footer-nav__col3">
+                                            <div class="footer-nav__title-right">Questions</div>
+                                            <div class="footer-nav__subtitle"><i class="fab fa-twitter"></i>Tweet us @<strong>template</strong></div>
+                                        </div>
+                                        <div class="footer-nav__col4">
+                                            <div class="footer-nav__title-right">Order by phone</div>
+                                            <div class="footer-nav__subtitle">8-800-409-47-12</div>
+                                        </div>
+                        </div>
+                        <div class="footer-nav__site-map">
+                                <div class="footer-nav__site-map-left-col">
+                                        <ul class="footer-menu__list">
+                                            <li class="footer-menu__item"><a class="footer-menu__link" href="">Legal notice</a></li>
+                                            <li class="footer-menu__item"><a class="footer-menu__link" href="">Privacy policy</a></li>
+                                            <li class="footer-menu__item"><a class="footer-menu__link" href="">Site map</a></li>
+                                        </ul>
+                                </div>
+                                
+                                <div class="footer-nav__social-385px">
+                                        <div class="footer-nav__social-network"><i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i></div>
+                                </div>
+                        </div>
+                        <div class="footer-nav__copyright">
+                            <div class="footer-nav__copyright__left-col">
+                                <div class="footer__left-title">
+                                    © 2010–2015, The Template Group inc.
+                                </div>
+                            </div>
+
+                            <div class="footer-nav__copyright-right-col">
+                                <div class="footer__center-title">
+                                    Share <span class="footer__center-share">1 437</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </nav>
+
+                <nav class="footer-nav">
+                        <div class="footer_nav__left-side">
+                            <div class="footer-nav__col1">
+                                <div class="footer-nav__title-left">Quick Links</div>
+                                <ul class="footer-nav__list">
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Store Locator</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Gift cards</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Size guide</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">About us</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Support</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-nav__col2">
+                                <div class="footer-nav__title-left">Customer Care</div>
+                                <ul class="footer-nav__list">
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Customer service</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Truck my order</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Return policy</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Shipping & delivery</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Contact us</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Careers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-nav__right-side">
+                            <div class="footer-nav__col3">
+                                <div class="footer-nav__title-right">Questions</div>
+                                <div class="footer-nav__subtitle"><i class="fab fa-twitter"></i>Tweet us @<strong>template</strong></div>
+                            </div>
+                            <div class="footer-nav__col4">
+                                <div class="footer-nav__title-right">Order by phone</div>
+                                <div class="footer-nav__subtitle">8-800-409-47-12</div>
+                            </div>
+                            <div class="footer-nav__delivery-info footer-nav__delivery-info-item">
+                                    We have our delivery service which operates in 23 major European cities. Delivery time - 3-5 days.
+                                    <div class="footer-nav__social-network"><i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i></div>
+                            </div>
+                            <div class="footer-nav__info_768px">
+                                <div class="footer-nav__social-network"><i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i></div>
+                            </div>
+                        </div>
+                        
+                </nav>
+                <footer class="footer">
+                        <div class="footer__left-col">
+                            <div class="footer__left-title">
+                                © 2010–2015, The Template Group inc.
+                            </div>
+                        </div>
+                        <div class="footer__center-col">
+                            <div class="footer__center-title">
+                                Share <span class="footer__center-share">1 437</span>
+                            </div>
+                        </div>
+                        <div class="footer__right-col">
+                            <ul class="footer-menu__list">
+                                <li class="footer-menu__item"><a class="footer-menu__link" href="">Site map</a></li>
+                                <li class="footer-menu__item"><a class="footer-menu__link" href="">Privacy policy</a></li>
+                                <li class="footer-menu__item"><a class="footer-menu__link" href="">Legal notice</a></li>
+                            </ul>
+                            </div> 
+                        </div>
+                </footer>
+
+        </div>
+        
+        <script src="js/showMenu.js"></script>
+        <script src="catalog.js"></script>
+        <script>
+            
+            let arrGoods = window.catalog;
+            let itemAdd = [];
+            let btnSize = document.querySelectorAll('.item-details__button-size');
+            let btnColor = document.querySelectorAll('.item-details__button-color');
+            let thumbnails = document.querySelectorAll('.img-container');
+            
+            let el = document.getElementsByTagName('body')[0];
+            let clientWindowWidth = el.clientWidth;
+
+            let search = document.querySelector('.searchTerm');
+            let searchBtn = document.querySelector('.searchButton');
+            
+            searchBtn.addEventListener('click', showSearchField);
+            
+            getItemSize();
+            getItemColor();
+            getPrice(); 
+            getQuantity();
+            itemCreate();
+            addToBag();
+             
+            
+
+            btnSize.forEach(function(element){
+                element.addEventListener('click', function(event){
+                    var isPushed = event.target;
+                    var active = document.querySelector('.item-details__button-size.active');
+                    var listName = event.target.parentElement.classList.value;
+                    
+                    if (active) {
+                        active.classList.remove('active');
+                    } 
+                    
+                    isPushed.classList.add('active');
+ 
+                })
+            })
+
+            btnColor.forEach(function(element){
+                element.addEventListener('click', function(event){
+                    var isPushed = event.target;
+                    var active = document.querySelector('.item-details__button-color.active');
+                    var listName = event.target.parentElement.classList.value;
+                    
+                    if (active) {
+                        active.classList.remove('active');
+                    } 
+                    
+                    isPushed.classList.add('active');
+                    
+                })
+            })
+            
+            thumbnails.forEach(function(element){
+                element.addEventListener('click', function(event){
+                    
+                    var clicked = event.target.parentElement;
+                    var active = document.querySelector('.img-container.active');
+                    var thumbAttribute = clicked.firstElementChild.nextElementSibling.getAttribute("src");
+                    var fullThumbAttr = thumbAttribute.slice(0, 4) + "full" + thumbAttribute.slice(10);
+                    
+                    if (clientWindowWidth > 1024) {
+                        var fullImageAttr = clicked.parentElement.parentElement.parentElement.firstElementChild;
+                        console.log(fullImageAttr);
+                    } else {
+                        var fullImageAttr = clicked.parentElement.parentElement.parentElement.firstElementChild.firstElementChild;
+                    }
+                    
+                    fullImageAttr.setAttribute('src', fullThumbAttr);
+                    
+                    if (active) {
+                        active.classList.remove('active');
+                    }
+
+                    clicked.classList.add('active');
+                })
+            })
+            
+            function getPrice() {
+                let price = document.getElementsByClassName('price')[0];
+                let priceMobile = document.getElementsByClassName('price')[1];
+                let currentPrice = localStorage.getItem('price');
+                currentPrice = JSON.parse(currentPrice);
+                if (currentPrice != null) {
+                  price.innerText = `£${currentPrice.toFixed(2)}`;
+                  priceMobile.innerText = `£${currentPrice.toFixed(2)}`;  
+                } 
+            }
+
+            function getQuantity() { 
+                let quantity = document.getElementsByClassName('quantity')[0];
+                let quantityMobile = document.getElementsByClassName('quantity')[1];
+                let currentQuantity = localStorage.getItem('quantity');
+                currentQuantity = JSON.parse(currentQuantity);
+                if (currentQuantity != null) {
+                    quantity.innerText = `(${currentQuantity})`;
+                    quantityMobile.innerText = `(${currentQuantity})`;
+                }
+            }
+
+            function showSearchField() {
+                
+                search.classList.remove('searchTerm-disable');
+                
+            }
+            
+            window.onresize = function(event) {
+                
+                var _clientWidth = event.target.visualViewport.width;
+                
+                if (_clientWidth < 1024) {
+                    search.classList.add('searchTerm-disable');
+                }
+
+            };
+
+            let button = document.getElementsByClassName('menubtn')[0];
+            let iconMenu = document.getElementsByClassName('icon-menu')[0];
+            let iconClose = document.getElementsByClassName('icon-close')[0];
+           
+
+            button.addEventListener('click', function(){
+
+                document.getElementById("myMenu").classList.toggle("show");
+                
+                let active = iconMenu;
+                let passive = iconClose;
+                
+                if(active.closest('.hide') == null) {
+                  active.classList.add('hide');
+                  passive.classList.remove('hide'); 
+                } else if (passive.closest('.hide') == null) {
+                  active.classList.remove('hide');
+                  passive.classList.add('hide');
+                } 
+            });
+
+            function itemCreate() {
+                var title, price, thumbnail, hasNew, colors, sizes, num, id;
+                for(var i = 0; i < arrGoods.length; i++) {
+                    if(arrGoods[i].title == 'Dark classic fit suit') {
+                        var catalog = {};
+                        catalog.id = arrGoods[i].id;
+                        catalog.title = arrGoods[i].title;
+                        catalog.price = arrGoods[i].price;
+                        catalog.thumbnail = arrGoods[i].thumbnail;
+                        catalog.hasNew = arrGoods[i].hasNew;
+                        catalog.colors = arrGoods[i].colors;
+                        catalog.sizes = arrGoods[i].sizes;
+                        catalog.num = 1;
+                        itemAdd.push(catalog);
+                    }  
+                }
+            }
+
+            function getItemSize() {
+                
+                let tempArr = [];
+                let size = document.getElementsByClassName("item-details__button-size");
+                
+                for (let i = 0; i < size.length; i++) {
+                    size[i].addEventListener('click', function (){
+                        //itemAdd[0].sizes = size[i].innerText.split();
+                        itemAdd[0].sizes = size[i].innerText;
+                    });  
+                }
+            }
+
+            function getItemColor() {
+                
+                let color = document.getElementsByClassName("item-details__button-color");
+                
+                for (let i = 0; i < color.length; i++) {
+                    color[i].addEventListener('click', function (){
+                        itemAdd[0].colors = color[i].innerText;  
+                    });  
+                }
+            }
+
+            function addToBag() {
+                
+                let bagBtnDesktop = document.getElementsByClassName('item-details__btn')[0];
+                let bagBtnTablet = document.getElementsByClassName('item-details__btn')[1];
+                let bagBtnMobile = document.getElementsByClassName('item-details__btn')[2];
+                
+                bagBtnDesktop.addEventListener('click', function(event) {
+                    saveSuitToStore();
+                });
+
+                bagBtnTablet.addEventListener('click', function(event) {
+                    saveSuitToStore();
+                }); 
+
+                bagBtnMobile.addEventListener('click', function(event) {
+                    saveSuitToStore();
+                });  
+            }
+            
+            function saveSuitToStore() {
+                
+                let itemSuit = itemAdd[0];
+                console.log(itemSuit);
+                let isExist = localStorage.getItem('goods');
+
+                isExist = isExist ? JSON.parse(isExist) : [];
+
+                isExist.push(itemSuit);
+
+                if(isExist.length > 1) {
+                    for(let k = 0; k < isExist.length; k++) {
+                        if((isExist[k].sizes === isExist[isExist.length - 1].sizes) && (isExist[k].colors === isExist[isExist.length - 1].colors) && (k != isExist.length - 1)) {
+                            isExist[k].num++;
+                            isExist.pop();
+                        } 
+                    }
+                }
+                
+                localStorage.setItem('goods', JSON.stringify(isExist));
+            }
+            
+        </script>
+        
+    </body>
+</html>

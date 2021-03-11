@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopping bag</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="fonts/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">  
+    </head>
+    <body>
+
+        <div class="container">
+
+                <header class="header">
+            
+                    <div class="logo">
+                        <div class="logo__item">Template</div>
+                        <div class="login">
+                            <a class="e-mail" href="">Email sign up</a>
+                            <a href="shopping bag.html" class="login__shopping-bag">
+                                <span class="bag"><i class="fa fa-shopping-bag"></i> Bag <span class="price"></span><span class="quantity">(0)</span></span>
+                            </a>  
+                        </div>
+                    </div> 
+                   
+                    <div class="menu-wrapper">
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a class="menu__link" href="">Women</a></li>
+                                <li class="menu__item"><a class="menu__link" href="">Men</a></li>
+                                <li class="menu__item"><a class="menu__link" href="">Handbags</a></li>
+                                <li class="menu__item"><a class="menu__link" href="">Accessories</a></li>
+                                <li class="menu__item"><a class="menu__link" href="">Sale</a></li>
+                                <li class="menu__item"><a class="menu__link" href="">New Arrivals</a></li>
+                                <li class="menu__item"><a class="menu__link" href="">Clearance</a></li>
+                                <li class="menu__item"><a class="menu__link" href="">Store Locator</a></li>
+                            </ul>
+                        </nav>
+
+                        <form class="search-form search-form-768px" style="position: relative;">
+                            <input type="text" class="searchTerm" placeholder="Style Name">
+                            <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>       
+                    </header>
+                    
+                    <header class="header-mobile" style="position: relative;">
+                        <div class="left-column">
+                            <div class="logo">
+                                <div class="logo__item-mobile">TL</div>
+                            </div>
+                            <div class="bag">
+                                <a href="shopping bag.html" class="login__shopping-bag">
+                                    <span class="shopbag"><i class="fa fa-shopping-bag"></i> Bag <span class="price"></span><span class="quantity">(0)</span></span>
+                                </a>
+                            </div> 
+                        </div>
+                        <div class="right-column">
+                            <div class="menu">
+                                <button class="menubtn"><i class="icon-menu"></i><i class="icon-close hide"></i></button>
+                                <div id="myMenu" class="menu-content">
+                                  <a href="">Women</a>
+                                  <a href="">Men</a>
+                                  <a href="">Handbags</a>
+                                  <a href="">Accessories</a>
+                                  <a href="">Sale</a>
+                                  <a href="">New Arrivals</a>
+                                  <a href="">Clearance</a>
+                                  <a href="">Store Locator</a>
+                                  <form class="search-form-768px" style="position: relative;">
+                                    <input type="text" class="searchTerm" placeholder="Style Name">
+                                    <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+                                  </form>
+                                </div>
+                            </div>
+                        </div>      
+                    </header>
+
+                    <div class="shopping-bag">
+                        <span class="shopping-bag__title">Shopping bag</span>
+                    </div>
+                    
+                    <div class="shopping-cart"></div>
+                    <div class="announcement-block">
+                        <span class="announcement-block__title">You've qualified for Free UK Next Day Delivery on your order.
+                            Don't forget to enter the code <span class="announcement-block__highlight">nextday</span> at checkout
+                        </span>
+                    </div>
+                    
+                    <div class="shopping-cart-controls">
+                        <div class="shopping-cart-controls__item">
+                            <div class="shopping-cart-controls__clear-bag">
+                                <a class="shopping-cart-controls__clear-bag-link">Clear bag</a>
+                            </div>
+                        </div>
+                        <div class="shopping-cart-controls__item">
+                            <div class="shopping-cart-controls__buy-now">
+                                <button class="shopping-cart-controls__buy-now-btn">Checkout</button>
+                            </div>
+                        </div>
+                        <div class="shopping-cart-controls__item">
+                            <div class="shopping-cart-controls__total-price">
+                                <span class="shopping-cart-controls__total-price-label">Total price:
+                                    <span class="shopping-cart-controls__total-price-style">£0.00</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="shopping-cart-controls-mobile">
+                        <div class="shopping-cart-controls__item">
+                            <div class="shopping-cart-controls__total-price">
+                                <span class="shopping-cart-controls__total-price-label">Total price:
+                                    <span class="shopping-cart-controls__total-price-style">£0.00</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="shopping-cart-controls__item">
+                            <div class="shopping-cart-controls__buy-now">
+                                <button class="shopping-cart-controls__buy-now-btn">Checkout</button>
+                            </div>
+                        </div>
+                        <div class="shopping-cart-controls__item">
+                            <div class="shopping-cart-controls__clear-bag">
+                                <a class="shopping-cart-controls__clear-bag-link">Clear bag</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <nav class="footer-nav__365px">
+                            <div class="footer-nav__links">
+                                    <div class="footer-nav__col1">
+                                                <div class="footer-nav__title-left">Quick Links</div>
+                                                    <ul class="footer-nav__list">
+                                                        <li class="footer-nav__item"><a class="footer-nav__link" href="">Store Locator</a></li>
+                                                        <li class="footer-nav__item"><a class="footer-nav__link" href="">Gift cards</a></li>
+                                                        <li class="footer-nav__item"><a class="footer-nav__link" href="">Size guide</a></li>
+                                                        <li class="footer-nav__item"><a class="footer-nav__link" href="">About us</a></li>
+                                                        <li class="footer-nav__item"><a class="footer-nav__link" href="">Support</a></li>
+                                                    </ul>
+                                    </div>
+                                    <div class="footer-nav__col2">
+                                                <div class="footer-nav__title-left">Customer Care</div>
+                                                    <ul class="footer-nav__list">
+                                                        <li class="footer-nav__item"><a class="footer-nav__link" href="">Customer service</a></li>
+                                                        <li class="footer-nav__item"><a class="footer-nav__link" href="">Truck my order</a></li>
+                                                        <li class="footer-nav__item"><a class="footer-nav__link" href="">Return policy</a></li>
+                                                        <li class="footer-nav__item"><a class="footer-nav__link" href="">Shipping & delivery</a></li>
+                                                        <li class="footer-nav__item"><a class="footer-nav__link" href="">Contact us</a></li>
+                                                        <li class="footer-nav__item"><a class="footer-nav__link" href="">Careers</a></li>
+                                                    </ul>
+                                            </div>
+                            </div>
+                            <div class="footer-nav__questions">
+                                            <div class="footer-nav__col3">
+                                                <div class="footer-nav__title-right">Questions</div>
+                                                <div class="footer-nav__subtitle"><i class="fab fa-twitter"></i>Tweet us @<strong>template</strong></div>
+                                            </div>
+                                            <div class="footer-nav__col4">
+                                                <div class="footer-nav__title-right">Order by phone</div>
+                                                <div class="footer-nav__subtitle">8-800-409-47-12</div>
+                                            </div>
+                            </div>
+                            <div class="footer-nav__site-map">
+                                    <div class="footer-nav__site-map-left-col">
+                                            <ul class="footer-menu__list">
+                                                <li class="footer-menu__item"><a class="footer-menu__link" href="">Legal notice</a></li>
+                                                <li class="footer-menu__item"><a class="footer-menu__link" href="">Privacy policy</a></li>
+                                                <li class="footer-menu__item"><a class="footer-menu__link" href="">Site map</a></li>
+                                            </ul>
+                                    </div>
+                                    
+                                    <div class="footer-nav__social-385px">
+                                            <div class="footer-nav__social-network"><i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i></div>
+                                    </div>
+                            </div>
+                            <div class="footer-nav__copyright">
+                                <div class="footer-nav__copyright__left-col">
+                                    <div class="footer__left-title">
+                                        © 2010–2015, The Template Group inc.
+                                    </div>
+                                </div>
+
+                                <div class="footer-nav__copyright-right-col">
+                                    <div class="footer__center-title">
+                                        Share <span class="footer__center-share">1 437</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </nav>
+
+                    <nav class="footer-nav">
+                        <div class="footer_nav__left-side">
+                            <div class="footer-nav__col1">
+                                <div class="footer-nav__title-left">Quick Links</div>
+                                <ul class="footer-nav__list">
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Store Locator</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Gift cards</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Size guide</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">About us</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Support</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-nav__col2">
+                                <div class="footer-nav__title-left">Customer Care</div>
+                                <ul class="footer-nav__list">
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Customer service</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Truck my order</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Return policy</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Shipping & delivery</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Contact us</a></li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="">Careers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-nav__right-side">
+                            <div class="footer-nav__col3">
+                                <div class="footer-nav__title-right">Questions</div>
+                                <div class="footer-nav__subtitle"><i class="fab fa-twitter"></i>Tweet us @<strong>template</strong></div>
+                            </div>
+                            <div class="footer-nav__col4">
+                                <div class="footer-nav__title-right">Order by phone</div>
+                                <div class="footer-nav__subtitle">8-800-409-47-12</div>
+                            </div>
+                            <div class="footer-nav__delivery-info">
+                                    We have our delivery service which operates in 23 major European cities. Delivery time - 3-5 days.
+                                    <div class="footer-nav__social-network"><i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i></div>
+                            </div>
+                            <div class="footer-nav__info_768px">
+                                <div class="footer-nav__social-network"><i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i></div>
+                            </div>
+                        </div>
+                       
+                    </nav>
+                    <footer class="footer">
+                        <div class="footer__left-col">
+                            <div class="footer__left-title">
+                                © 2010–2015, The Template Group inc.
+                            </div>
+                        </div>
+                        <div class="footer__center-col">
+                            <div class="footer__center-title">
+                                Share <span class="footer__center-share">1 437</span>
+                            </div>
+                        </div>
+                        <div class="footer__right-col">
+                            <ul class="footer-menu__list">
+                                <li class="footer-menu__item"><a class="footer-menu__link" href="">Site map</a></li>
+                                <li class="footer-menu__item"><a class="footer-menu__link" href="">Privacy policy</a></li>
+                                <li class="footer-menu__item"><a class="footer-menu__link" href="">Legal notice</a></li>
+                            </ul>
+                            </div> 
+                        </div>
+                    </footer>
+
+        </div>
+
+        <script src="js/showMenu.js"></script>
+        <script>
+            
+            let item = localStorage.getItem('goods');
+            let obj = JSON.parse(item);
+        
+            shoppingBagRender();
+            
+            
+            let bag = document.getElementsByClassName("shopping-cart-controls__clear-bag-link")[0];
+            let bagMobile = document.getElementsByClassName("shopping-cart-controls__clear-bag-link")[1];
+            let checkout = document.getElementsByClassName("shopping-cart-controls__buy-now-btn")[0];
+            let checkoutMobile = document.getElementsByClassName("shopping-cart-controls__buy-now-btn")[1];
+            let items = document.querySelectorAll(".shopping-cart__remove-item-link");
+            let price = document.getElementsByClassName('shopping-cart-controls__total-price-style')[0];
+            let priceMobile = document.getElementsByClassName('shopping-cart-controls__total-price-style')[1];
+            let quantityMinus = document.querySelectorAll(".shopping-cart__quantity-sign-minus", ".shopping-cart__quantity-sign-none");
+            let quantityPlus = document.querySelectorAll(".shopping-cart__quantity-sign-plus");
+            let quantityMinusNone = document.querySelectorAll(".shopping-cart__quantity-sign-none");
+            let cartItem = document.querySelectorAll(".shopping-cart__item");
+            
+            let search = document.querySelector('.searchTerm');
+            let searchBtn = document.querySelector('.searchButton');
+            
+            searchBtn.addEventListener('click', showSearchField);
+
+            renderPrice();
+            priceOnHeader();
+            quantityOnHeader();
+            
+            bag.addEventListener('click', function(){
+                clearBag();
+            });
+
+            bagMobile.addEventListener('click', function(){
+                clearBag();
+            });
+
+            checkout.addEventListener('click', function(){
+                checkBag();
+            });
+
+            checkoutMobile.addEventListener('click', function(){
+                checkBag();
+            });
+
+            function clearBag() {
+                let cart = document.querySelector(".shopping-cart");
+                let div = document.querySelector(".shopping-bag");
+                let updatePrice = 0;
+                cart.remove();
+               
+                div.insertAdjacentHTML('afterend', '<br>' + '<br>' + '<p></p>');
+
+                let p = document.getElementsByTagName('p')[0];
+                p.setAttribute('class', 'shopping-cart__empty-bag');
+                p.innerHTML = "Your shopping bag is empty. Use Catalog to add new items";
+
+                price.innerHTML = `£${updatePrice.toFixed(2)}`;
+                priceMobile.innerHTML = `£${updatePrice.toFixed(2)}`;
+
+                obj.splice(0, obj.length);
+                priceOnHeader();
+                quantityOnHeader();
+                updateStore();
+            }
+
+            function checkBag() {
+                let cart = document.querySelector(".shopping-cart");
+                let div = document.querySelector(".shopping-bag");
+                let updatePrice = 0;
+                cart.remove();
+               
+                div.insertAdjacentHTML('afterend', '<br>' + '<br>' + '<p></p>');
+
+                let p = document.getElementsByTagName('p')[0];
+                p.setAttribute('class', 'shopping-cart__empty-bag');
+                p.innerHTML = "Thank you for your purchase";
+
+                price.innerHTML = `£${updatePrice.toFixed(2)}`;
+                priceMobile.innerHTML = `£${updatePrice.toFixed(2)}`;
+
+                obj.splice(0, obj.length);
+                priceOnHeader();
+                quantityOnHeader();
+                updateStore();
+            }
+
+            items.forEach(function(btn, index){
+                btn.addEventListener("click", function(event){
+                    let removeItem = event.target.parentElement.parentElement;
+                    let removePhoto = event.target.parentElement.parentElement.previousElementSibling;
+                    let flex = event.target.parentElement.parentElement.nextElementSibling;
+                    let sign = event.target.parentElement.previousElementSibling.innerText;
+                    let value = parseInt(sign.slice(11)); 
+                    
+                    let currentPrice = price.innerText.slice(1);
+                    let currentPriceMobile = priceMobile.innerText.slice(1);
+
+                    let itemPrice = removeItem.firstElementChild.nextElementSibling.innerText.slice(1);
+                    let newPrice = (parseFloat(currentPrice) + 15) - parseFloat(itemPrice) * value;
+                    let newPriceMobile = (parseFloat(currentPriceMobile) + 15) - parseFloat(itemPrice) * value;
+                    
+                    newPrice = newPrice - 15;
+                    newPriceMobile = newPriceMobile - 15;
+
+                    if(newPrice < 0 || newPriceMobile < 0) {
+                        newPrice =  0;//newPrice + 15;
+                        newPriceMobile = 0;
+                    }
+                   
+                    
+                    price.innerHTML = `£${newPrice.toFixed(2)}`;
+                    priceMobile.innerHTML = `£${newPriceMobile.toFixed(2)}`;
+                   
+                    removeItem.remove();
+                    removePhoto.remove();
+                    flex.remove();
+
+                    obj.splice(index, 1);
+                    priceOnHeader();
+                    quantityOnHeader();
+                    updateStore();
+                })
+            })
+            
+            quantityMinus.forEach(function(element, index){
+                element.addEventListener('click', function(event) {
+                    let sign = event.target.closest('.shopping-cart__quantity-sign-minus').innerText;
+                    let active = event.target.parentElement.firstElementChild;
+                    let currentPrice = parseFloat(price.innerText.slice(1));
+                    let currentPriceMobile = parseFloat(priceMobile.innerText.slice(1));
+                    let itemPrice = parseFloat(event.target.parentElement.parentElement.firstElementChild.nextElementSibling.innerText.slice(1));
+                   
+                    value = parseInt(event.target.parentElement.innerText.slice(11));
+
+                    if(sign == '-') {
+                        value--;
+                        currentPrice = currentPrice - itemPrice;
+                        currentPriceMobile = currentPriceMobile - itemPrice;
+                        obj[index].num--;   
+                    }
+                   
+                    if (value == 1) {
+                        active.classList.remove('shopping-cart__quantity-sign-minus');
+                        active.classList.add('shopping-cart__quantity-sign-none');
+                    }
+
+                    event.target.parentElement.firstElementChild.nextElementSibling.innerText = value;
+                    price.innerHTML = `£${currentPrice.toFixed(2)}`;
+                    priceMobile.innerHTML = `£${currentPriceMobile.toFixed(2)}`;
+                    priceOnHeader();
+                    quantityOnHeader();
+                    updateStore();
+                })
+            })
+
+            quantityMinusNone.forEach(function(element, index){
+                element.addEventListener('click', function(event) {
+                    let sign = event.target.closest('.shopping-cart__quantity-sign-minus').innerText;
+                    let active = event.target.parentElement.firstElementChild;
+                    let currentPrice = parseFloat(price.innerText.slice(1));
+                    let currentPriceMobile = parseFloat(priceMobile.innerText.slice(1));
+                    let itemPrice = parseFloat(event.target.parentElement.parentElement.firstElementChild.nextElementSibling.innerText.slice(1));
+                
+                    value = parseInt(event.target.parentElement.innerText.slice(11));
+
+                    if(sign == '-') {
+                        value--;
+                        currentPrice = currentPrice - itemPrice;
+                        currentPriceMobile = currentPriceMobile - itemPrice;
+                        obj[index].num--;  
+                    }
+                    
+                    if (value == 1) {
+                        active.classList.remove('shopping-cart__quantity-sign-minus');
+                        active.classList.add('shopping-cart__quantity-sign-none');
+                    }
+
+                    event.target.parentElement.firstElementChild.nextElementSibling.innerText = value;
+                    price.innerHTML = `£${currentPrice.toFixed(2)}`;
+                    priceMobile.innerHTML = `£${currentPriceMobile.toFixed(2)}`;
+                    priceOnHeader();
+                    quantityOnHeader()
+                    updateStore();
+                })
+            })
+
+            quantityPlus.forEach(function(element, index){
+                element.addEventListener('click', function(event) {
+                    let sign = event.target.closest('.shopping-cart__quantity-sign-plus').innerText;
+                    let active = event.target.parentElement.firstElementChild;
+                    let currentPrice = parseFloat(price.innerText.slice(1));
+                    let currentPriceMobile = parseFloat(priceMobile.innerText.slice(1));
+                    let itemPrice = parseFloat(event.target.parentElement.parentElement.firstElementChild.nextElementSibling.innerText.slice(1));
+                    
+                    value = parseInt(event.target.parentElement.innerText.slice(11));
+
+                    if(sign == '+') {
+                        value++;
+                        currentPrice = currentPrice + itemPrice;
+                        currentPriceMobile = currentPriceMobile + itemPrice;
+                        obj[index].num++; 
+                        
+                    }
+                    
+                    if (value > 1) {
+                        active.classList.remove('shopping-cart__quantity-sign-none');
+                        active.classList.add('shopping-cart__quantity-sign-minus');
+                    }
+
+                    event.target.parentElement.firstElementChild.nextElementSibling.innerText = value;
+                    price.innerHTML = `£${currentPrice.toFixed(2)}`;
+                    priceMobile.innerHTML = `£${currentPriceMobile.toFixed(2)}`;
+                    priceOnHeader();
+                    quantityOnHeader()
+                    updateStore(); 
+                })
+            })
+            
+            cartItem.forEach(function(element){
+
+                element.addEventListener('mouseover', function(event){
+                    
+                    var highlight = event.target.parentElement.nextElementSibling.firstElementChild;
+                    highlight.classList.add('shopping-cart__highlight-name');
+                   
+                })
+
+                var active = document.getElementsByClassName('shopping-cart__highlight-name')[0];
+
+                element.addEventListener('mouseout', function(event){
+                    var highlight = event.target.parentElement.nextElementSibling.firstElementChild;
+                    highlight.classList.remove('shopping-cart__highlight-name');
+                })
+
+            })
+            
+            
+            //console.log(obj.length);
+            
+
+            function shoppingBagRender() {
+                
+                var item = localStorage.getItem('goods');
+                var obj = JSON.parse(item);
+                obj.reverse();
+
+                var newFlex = document.getElementsByClassName("shopping-cart")[0];
+
+                for (var i = 0; i < obj.length; i++) {
+                    
+                    if(obj[i].hasNew === true && obj[i].num == 1) {
+                        
+                        newFlex.insertAdjacentHTML('afterbegin', 
+                                            
+                        `<div class="shopping-cart__item" style="position: relative;">
+                            <div class="shopping-cart__item-overlay"></div>
+                            <div class="label">NEW</div>
+                            <img src="${obj[i].thumbnail}" 
+                            class="galery-offer__image galery-offer__image-shopping-cart" alt="Jeans">
+                            <div class="shopping-cart__item-details">
+                                <h3 class="shopping-cart__item-details-title">Edit item</h3>
+                            </div>
+                        </div>
+                        
+                        <div class="shopping-cart__item shopping-cart__item-width">
+                            <div class="shopping-cart__name">${obj[i].title}</div>
+                            <div class="shopping-cart__price">£${obj[i].price.toFixed(2)}</div>
+                            <div class="shopping-cart__color-size">Color: ${Array.isArray(obj[i].colors) ? obj[i].colors[0] : obj[i].colors}</div>
+                            <div class="shopping-cart__color-size">Size: ${Array.isArray(obj[i].sizes) ? obj[i].sizes[0] : obj[i].sizes}</div>
+                            <div class="shopping-cart__color-size shopping-cart__quantity">
+                                Quantity: <a class="shopping-cart__quantity-sign-none">-</a><span class="quantity">${obj[i].num}</span><a class="shopping-cart__quantity-sign-plus">+</a>
+                            </div>
+                            <div class="shopping-cart__remove-item">
+                                    <a class="shopping-cart__remove-item-link">Remove item</a>
+                            </div>
+                        </div>
+                        <div class="shopping-cart__item shopping-cart__item-width-empty">
+                        
+                        </div>`
+                        )
+                    } else if (obj[i].hasNew === false && obj[i].num == 1) {
+                        newFlex.insertAdjacentHTML('afterbegin', 
+                                            
+                        `<div class="shopping-cart__item" style="position: relative;">
+                            <div class="shopping-cart__item-overlay"></div>
+                            <img src="${obj[i].thumbnail}" 
+                            class="galery-offer__image galery-offer__image-shopping-cart" alt="Jeans">
+                            <div class="shopping-cart__item-details">
+                                <h3 class="shopping-cart__item-details-title">Edit item</h3>
+                            </div>
+                        </div>
+                        
+                        <div class="shopping-cart__item shopping-cart__item-width">
+                            <div class="shopping-cart__name">${obj[i].title}</div>
+                            <div class="shopping-cart__price">£${obj[i].price.toFixed(2)}</div>
+                            <div class="shopping-cart__color-size">Color: ${Array.isArray(obj[i].colors) ? obj[i].colors[0] : obj[i].colors}</div>
+                            <div class="shopping-cart__color-size">Size: ${Array.isArray(obj[i].sizes) ? obj[i].sizes[0] : obj[i].sizes}</div>
+                            <div class="shopping-cart__color-size shopping-cart__quantity">
+                                Quantity: <a class="shopping-cart__quantity-sign-none">-</a><span class="quantity">${obj[i].num}</span><a class="shopping-cart__quantity-sign-plus">+</a>
+                            </div>
+                            <div class="shopping-cart__remove-item">
+                                    <a class="shopping-cart__remove-item-link">Remove item</a>
+                            </div>
+                        </div>
+                        <div class="shopping-cart__item shopping-cart__item-width-empty">
+                        
+                        </div>`
+                        )
+                    } else if (obj[i].hasNew === true && obj[i].num > 1) {
+                        
+                        newFlex.insertAdjacentHTML('afterbegin', 
+                                            
+                        `<div class="shopping-cart__item" style="position: relative;">
+                            <div class="shopping-cart__item-overlay"></div>
+                            <div class="label">NEW</div>
+                            <img src="${obj[i].thumbnail}" 
+                            class="galery-offer__image galery-offer__image-shopping-cart" alt="Jeans">
+                            <div class="shopping-cart__item-details">
+                                <h3 class="shopping-cart__item-details-title">Edit item</h3>
+                            </div>
+                        </div>
+                        
+                        <div class="shopping-cart__item shopping-cart__item-width">
+                            <div class="shopping-cart__name">${obj[i].title}</div>
+                            <div class="shopping-cart__price">£${obj[i].price.toFixed(2)}</div>
+                            <div class="shopping-cart__color-size">Color: ${Array.isArray(obj[i].colors) ? obj[i].colors[0] : obj[i].colors}</div>
+                            <div class="shopping-cart__color-size">Size: ${Array.isArray(obj[i].sizes) ? obj[i].sizes[0] : obj[i].sizes}</div>
+                            <div class="shopping-cart__color-size shopping-cart__quantity">
+                                Quantity: <a class="shopping-cart__quantity-sign-minus">-</a><span class="quantity">${obj[i].num}</span><a class="shopping-cart__quantity-sign-plus">+</a>
+                            </div>
+                            <div class="shopping-cart__remove-item">
+                                    <a class="shopping-cart__remove-item-link">Remove item</a>
+                            </div>
+                        </div>
+                        <div class="shopping-cart__item shopping-cart__item-width-empty">
+                        
+                        </div>`
+                        )
+                    } else if (obj[i].hasNew === false && obj[i].num > 1) {
+                        newFlex.insertAdjacentHTML('afterbegin', 
+                                            
+                        `<div class="shopping-cart__item" style="position: relative;">
+                            <div class="shopping-cart__item-overlay"></div>
+                            <img src="${obj[i].thumbnail}" 
+                            class="galery-offer__image galery-offer__image-shopping-cart" alt="Jeans">
+                            <div class="shopping-cart__item-details">
+                                <h3 class="shopping-cart__item-details-title">Edit item</h3>
+                            </div>
+                        </div>
+                        
+                        <div class="shopping-cart__item shopping-cart__item-width">
+                            <div class="shopping-cart__name">${obj[i].title}</div>
+                            <div class="shopping-cart__price">£${obj[i].price.toFixed(2)}</div>
+                            <div class="shopping-cart__color-size">Color: ${Array.isArray(obj[i].colors) ? obj[i].colors[0] : obj[i].colors}</div>
+                            <div class="shopping-cart__color-size">Size: ${Array.isArray(obj[i].sizes) ? obj[i].sizes[0] : obj[i].sizes}</div>
+                            <div class="shopping-cart__color-size shopping-cart__quantity">
+                                Quantity: <a class="shopping-cart__quantity-sign-minus">-</a><span class="quantity">${obj[i].num}</span><a class="shopping-cart__quantity-sign-plus">+</a>
+                            </div>
+                            <div class="shopping-cart__remove-item">
+                                    <a class="shopping-cart__remove-item-link">Remove item</a>
+                            </div>
+                        </div>
+                        <div class="shopping-cart__item shopping-cart__item-width-empty">
+                        
+                        </div>`
+                        )
+                    }
+
+                    
+                }
+
+            }
+
+            function renderPrice() {
+                var discountPrice = discountedPrice();
+                price.innerHTML = `£${discountPrice}`;
+                priceMobile.innerHTML = `£${discountPrice}`;
+            }
+
+            function priceOnHeader() {
+                let headerPrice = document.getElementsByClassName('price')[0];
+                let headerMobilePrice = document.getElementsByClassName('price')[1];
+                let currentPrice = parseFloat(price.innerText.slice(1));
+                let currentPriceMobile = parseFloat(priceMobile.innerText.slice(1));
+                headerPrice.innerText = `£${currentPrice.toFixed(2)}`;
+                headerMobilePrice.innerText = `£${currentPriceMobile.toFixed(2)}`;
+                localStorage.setItem('price', JSON.stringify(currentPrice));
+            }
+
+            function quantityOnHeader() {
+                
+                let quant = document.getElementsByClassName('quantity')[0];
+                let quantityMobile = document.getElementsByClassName('quantity')[1];
+
+                var sum = 0;
+                for (var i = 0; i < obj.length; i++) {
+                    sum += obj[i].num;
+                }
+
+                quant.innerText = `(${sum})`;
+                quantityMobile.innerText = `(${sum})`;
+                localStorage.setItem('quantity', JSON.stringify(sum));
+            }
+            
+            function totalSumCalc() {
+                
+                var item = localStorage.getItem('goods');
+                var obj = JSON.parse(item);
+                obj.reverse();
+                
+                var sum = 0;
+
+                for(var i = 0; i < obj.length; i++) {
+                    sum += (obj[i].price) * (obj[i].num);
+                }
+
+                return sum;
+
+            }
+
+            function discountedPrice() {
+                
+                var totalSum = totalSumCalc();
+
+                var discountPrice = totalSum - 15;
+                
+                if((Object.keys(obj).length === 0)) {
+                    discountPrice = 0;
+                } 
+
+                return discountPrice.toFixed(2);
+
+            }
+            
+            function updateStore() {
+                //obj.reverse();
+                localStorage.setItem('goods', JSON.stringify(obj));
+            }
+
+            function showSearchField() {
+                
+                search.classList.remove('searchTerm-disable');
+                
+            }
+            
+            window.onresize = function(event) {
+                
+                var _clientWidth = event.target.visualViewport.width;
+                
+                if (_clientWidth < 1024) {
+                    search.classList.add('searchTerm-disable');
+                }
+            };
+
+            let button = document.getElementsByClassName('menubtn')[0];
+            let iconMenu = document.getElementsByClassName('icon-menu')[0];
+            let iconClose = document.getElementsByClassName('icon-close')[0];
+           
+
+            button.addEventListener('click', function(){
+
+                document.getElementById("myMenu").classList.toggle("show");
+                
+                let active = iconMenu;
+                let passive = iconClose;
+                
+                if(active.closest('.hide') == null) {
+                  active.classList.add('hide');
+                  passive.classList.remove('hide'); 
+                } else if (passive.closest('.hide') == null) {
+                  active.classList.remove('hide');
+                  passive.classList.add('hide');
+                } 
+            });
+        </script>
+    </body>
+</html>
